@@ -93,6 +93,7 @@ $ composer install
 ```
 
 ![running composer install](sp4d-img-04.jpg)
+
 Some things to note here:
 1. composer only fetches from https by default. If your satispress donor site can't be https then you can add in `"secure-http": false,`
 1. In SatisPress 0.2.3, packages are [public by default](https://github.com/blazersix/satispress/tree/master#security) but it looks like the [next version](https://github.com/blazersix/satispress/blob/develop/docs/security.md) will have better security built in.
